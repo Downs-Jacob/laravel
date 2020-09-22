@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/test', function () {
     dump('hello world');
 });
+
+Route::get('/game/create', [\App\Http\Controllers\GameController::class, 'create']);
+
+Route::get('/game/{game}', [\App\Http\Controllers\GameController::class, 'show']);
+
+Route::post('/game', [\App\Http\Controllers\GameController::class, 'store']);
