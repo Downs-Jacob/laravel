@@ -18,8 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    dump('hello world');
+    return view('test');
 });
+
 
 Route::get('/game/create', [\App\Http\Controllers\GameController::class, 'create']);
 
