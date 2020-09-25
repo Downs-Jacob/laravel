@@ -17,13 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    return view('test');
-});
-
 
 Route::get('/game/create', [\App\Http\Controllers\GameController::class, 'create']);
 
 Route::get('/game/{game}', [\App\Http\Controllers\GameController::class, 'show']);
 
 Route::post('/game', [\App\Http\Controllers\GameController::class, 'store']);
+
+// Laravel Testing
+
+
+
+Route::get('posts/{post}', [\App\Http\Controllers\PostsController::class, 'show']);

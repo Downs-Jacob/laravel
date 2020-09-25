@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Test complete</h1>
+    <h1> My Posts</h1>
+    <p1>{{ $post->body }}</p1>
 </body>
 </html>
