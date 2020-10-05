@@ -1,1 +1,4 @@
-https://laracasts.com/series/laravel-6-from-scratch/episodes/18?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/29?autoplay=true
+
+//setup Database in laravel
+https://laracasts.com/series/laravel-6-from-scratch/episodes/9?autoplay=true
