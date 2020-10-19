@@ -37,4 +37,21 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function articles()
+    {
+        return $this->hasMany(Article::class); //select * from articles where user_id = 1
+    }
+
+    public function projects()
+    {
+        return $this->hasMany(Project::class); //select * from projects where user_id = 1
+    }
 }
+
+// Eloquent Process
+// $user = User::find(1); - this executes a query like this 'select * from user where id=1'
+// $user->projects; - this executes a query like this 'select * from projects where user_id= $user->id'
+// $user->projects->
+
+

@@ -1,0 +1,18 @@
+
+
+//Current Tutorial in Use
+https://laracasts.com/series/laravel-6-from-scratch/episodes/29?autoplay=true
+.............................................................................
+
+//setup Database in laravel
+https://laracasts.com/series/laravel-6-from-scratch/episodes/9?autoplay=true
+.............................................................................
+
+//Using Factories in Laravel - laravel 8 is different than tutorials:
+https://laracasts.com/series/laravel-6-from-scratch/episodes/30?autoplay=true
+
+- creating User:
+App\Models\User::factory()->count(2)->create()
+- creating Article:
+Article::factory(3)->create(['user_id'=>1]);
+.............................................................................
