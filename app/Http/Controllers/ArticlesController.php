@@ -3,13 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Tag;
 use Illuminate\Http\Request;
 
 class ArticlesController extends Controller
 {
     public function index()
-    {   //render a single resource
-        $articles = Article::latest()->get();
+    {
+        if (request('tag')) {
+            $articles = Tag::where('name', request('tag'))->firstOrFail()->articles;
+            } else {
+                $articles=Article::latest()->get();
+            }
+
         return view('articles.index', ['articles'=> $articles]);
     }
 
