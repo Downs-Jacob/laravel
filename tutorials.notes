@@ -1,7 +1,7 @@
 
 
 //Current Tutorial in Use
-https://laracasts.com/series/laravel-6-from-scratch/episodes/33?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/40?autoplay=true
 .............................................................................
 
 //setup Database in laravel
@@ -15,4 +15,18 @@ https://laracasts.com/series/laravel-6-from-scratch/episodes/30?autoplay=true
 App\Models\User::factory()->count(2)->create()
 - creating Article:
 Article::factory(3)->create(['user_id'=>1]);
+.............................................................................
+
+//Authentication in Laravel
+https://laracasts.com/series/laravel-6-from-scratch/episodes/34?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/35?autoplay=true
+.............................................................................
+
+//CSRF attacks and prevention @csrf - include in forms
+https://laracasts.com/series/laravel-6-from-scratch/episodes/37?autoplay=true
+.............................................................................
+
+//Automatically Resolve Dependencies and Providers
+https://laracasts.com/series/laravel-6-from-scratch/episodes/38?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/39?autoplay=true
 .............................................................................

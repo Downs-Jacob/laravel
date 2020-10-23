@@ -43,3 +43,19 @@ Route::get('/game/create', [\App\Http\Controllers\GameController::class, 'create
 Route::get('/game/{game}', [\App\Http\Controllers\GameController::class, 'show']);
 Route::post('/game', [\App\Http\Controllers\GameController::class, 'store']);
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
