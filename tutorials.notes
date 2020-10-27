@@ -1,7 +1,7 @@
 
 
 //Current Tutorial in Use
-https://laracasts.com/series/laravel-6-from-scratch/episodes/40?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/45?autoplay=true
 .............................................................................
 
 //setup Database in laravel
@@ -30,3 +30,17 @@ https://laracasts.com/series/laravel-6-from-scratch/episodes/37?autoplay=true
 https://laracasts.com/series/laravel-6-from-scratch/episodes/38?autoplay=true
 https://laracasts.com/series/laravel-6-from-scratch/episodes/39?autoplay=true
 .............................................................................
+
+//Using Facades
+https://laracasts.com/series/laravel-6-from-scratch/episodes/40?autoplay=true
+.............................................................................
+
+//setting up and using emails
+https://laracasts.com/series/laravel-6-from-scratch/episodes/42?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/43?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/44?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/45?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/46?autoplay=true
+
+//things to look for : 
+//use mailtrap and input credentials in .env when testing email use on app
