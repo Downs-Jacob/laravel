@@ -1,7 +1,7 @@
 
 
 //Current Tutorial in Use
-https://laracasts.com/series/laravel-6-from-scratch/episodes/45?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/48
 .............................................................................
 
 //setup Database in laravel
@@ -42,5 +42,10 @@ https://laracasts.com/series/laravel-6-from-scratch/episodes/44?autoplay=true
 https://laracasts.com/series/laravel-6-from-scratch/episodes/45?autoplay=true
 https://laracasts.com/series/laravel-6-from-scratch/episodes/46?autoplay=true
 
-//things to look for : 
+//things to look for :
 //use mailtrap and input credentials in .env when testing email use on app
+.............................................................................
+
+//setting up and using notifications!
+https://laracasts.com/series/laravel-6-from-scratch/episodes/47?autoplay=true
+https://laracasts.com/series/laravel-6-from-scratch/episodes/48?autoplay=true
