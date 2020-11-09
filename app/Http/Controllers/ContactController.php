@@ -7,7 +7,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Mail;
-use App\Mail\ContactMe;
+use App\Mail\Contact;
 
 class ContactController extends Controller
 {
@@ -17,12 +17,12 @@ class ContactController extends Controller
     }
 
     public function store()
-    {   
+    {
         request()->validate(['email' => 'required|email']);
-        
+
         //send email
         Mail::to(request('email'))
-            ->send(new ContactMe('shirts'));
+            ->send(new Contact());
 
 
         return redirect('/contact')

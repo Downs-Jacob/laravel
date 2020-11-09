@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Route::get('/contact', [\App\Http\Controllers\ContactController::class, 'show']);
 Route::post('/contact', [\App\Http\Controllers\ContactController::class, 'store']);
+Route::get('/payments/create', [\App\Http\Controllers\PaymentsController::class, 'create'])->middleware('auth');
+Route::post('/payments', [\App\Http\Controllers\PaymentsController::class, 'store'])->middleware('auth');
+Route::get('/notifications', [\App\Http\Controllers\userNotificationsController::class, 'show'])->middleware('auth');
 
 Route::get('/about', function () {
     return view('about', [
@@ -58,3 +61,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();
+
+Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

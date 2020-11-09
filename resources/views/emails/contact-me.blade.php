@@ -1,22 +1,16 @@
-<!doctype html>
+@component('mail::message')
+{{-- dont indent anything in this  --}}
 
 
-<html lang='en'>
-<head>
-    <meta charset="UTF-8"
-    <meta
-        name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
-    <meta
-        http-equiv="X-UA-Compatible"
-        content="ie=edge"
-    >
+# A Heading
 
-    <title>Document</title>
-</head>
-<body>
-    <h1> It Works Again! </h1>
-    <p> It sounds like you want to hear more about the {{$topic}}</p>
-</body>
-</html>
+Lorem Ipsum dolar sit amet
+- A list
+- goes
+- here
+
+@component('mail::button', ['url'=>'https://laracasts.com'])
+    Visit Laracasts
+@endcomponent
+
+@endcomponent
